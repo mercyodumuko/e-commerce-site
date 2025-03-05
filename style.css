@@ -1,0 +1,460 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+@media (min-width :  600px){
+
+    .space{
+        display: flex;
+margin-left: 200px;
+         
+       }
+    .set{
+     margin-left: 40px;
+    }
+
+}
+
+@media (max-width : 350px){
+
+    .space{
+      flex-direction: column;
+margin-left: 200px;
+         
+       }
+       .about-container{
+        margin-right: 10px;
+       }
+
+
+      
+}
+
+.hero{
+    width: 100%;
+   background-image: url("./images/img8.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 500px;
+   padding-top: 20px;
+}
+
+.inner-box{
+   overflow: hidden;
+   text-align: center;
+  position: relative;
+  left: 70px;
+  top: 70px;
+   width: 400px;
+   height: 400px;
+   background-color: rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(10px);
+   border-radius: 5px;
+
+}
+
+
+.inner-box h1{
+ margin-top: 20px;
+ font-size: 4rem;
+ font-weight: 500;
+}
+
+.inner-box p{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+   
+}
+
+.deals-container{
+    margin-top: 150px;
+    margin-left: 40px;
+    display: grid;
+    gap: 2rem;
+}
+
+.deals-card span{
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 2rem;
+}
+
+.deals-card h4{
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.deals-card p{
+    color: grey;
+}
+
+@media(width > 540px){
+    .deals-container{
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+
+
+    .about-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+.about-container{
+    margin-left: 100px;
+}
+
+}
+
+@media(width > 768px){
+    .deals-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .deals-card:nth-child(1){
+        grid-column: 1/4;
+    }
+
+
+    .about-header{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .about-content{
+       
+        align-items: center;
+    }
+
+
+
+}
+
+hr{
+    width: 400px;
+    position: relative;
+    left: 18%;
+padding-top: 20px;
+}
+
+
+.img7{
+    width: 500px;
+    margin-left: 20px;
+}
+
+@media(width > 1024px){
+    .deals-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .deals-card:nth-child(1){
+        grid-column: unset;
+    }
+
+    .img7{
+        width: 700px;
+    }
+.about-header{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .about-content{
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+    .about-container{
+        margin-left: 0;
+    }
+    .inner-box{
+        position: absolute;
+        left: 20%;
+        top: 25%;
+    }
+
+    .second-box{
+        position: absolute;
+        left: 80%;
+    }
+  
+    hr{
+        position: relative;
+        left: 33%;
+    }
+}
+
+.contain{
+    margin-top: 10rem;
+ background-image: url("./images/img10.jpg");
+ background-size: cover;
+ text-align: center;
+  width: 100%;
+  min-height: 500px;
+}
+
+.about-container{
+    margin-top: 10rem;
+    margin-left: 30px;
+}
+
+.about-grid{
+    display: grid;
+    gap: 2rem;
+}
+
+.about-img{
+    overflow: hidden;
+
+}
+
+.about-card h3{
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.about-card h4{
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.about-content{
+    margin-top: 3rem;
+    display: grid;
+    gap: 2rem;
+}
+
+.about-header{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.about-header .section-naration{
+    max-width: 600px;
+}
+
+.second-box{
+    width: 400px;
+    background-color: #fff;
+    position: absolute;
+    left: 20%;
+   margin-top: 35px; 
+   padding: 30px;
+   padding-bottom: 35px ;
+}
+
+.form , .italic{
+    margin-top: 25px;
+}
+.bnt{
+width: 150px;
+    padding: 10px;
+    margin-top: 30px;
+    border: none;
+    background-color: black;
+    color: #fff;
+}
+
+.italic{
+    font-family: sans-serif;
+}
+
+.footer-container{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    background-color: black;
+    color: #fff;
+    padding: 15px;
+}
+
+
+.footer-container{
+  margin-top: 200px;
+}
+
+
+
+.top{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer-content{
+    margin-left: 100px;
+   margin-bottom: 20px;
+}
+
+.copyright{
+   text-align: center;
+}
+
+@media(min-width : 790px){
+
+    footer{
+        display: flex;
+    }
+
+}
+
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+.n{
+    color: black;
+}
+
+
+.nav-con{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+nav{
+    position: fixed;
+    isolation: isolate;
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    z-index: 9;
+    background-color: white;
+}
+
+.nav-header{
+padding: 1rem;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav-logo .logo{
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: black;
+   padding: 20px;
+}
+
+.nav-menu-bnt{
+    font-size: 1.6rem;
+    cursor: pointer;
+    margin-right: 30px;
+
+}
+.nav-links{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+  padding: 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 2rem;
+transition: 0.5s;
+z-index: -1;
+background-color: white;
+transform: translate(-100%);
+}
+
+.nav-links.open{
+    transform: translate(0);
+
+}
+
+.nav-links a{
+    font-weight: 500;
+
+}
+
+.nav-search{
+    display: none;
+
+}
+
+@media(width > 768px){
+    nav{
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+.nav-header{
+    flex: 1;
+    padding:  2rem 1rem;
+}
+
+.nav-menu-bnt{
+   display: none; 
+}
+
+.nav-links{
+    position: static;
+    padding: 0;
+    flex-direction: row;
+    width: fit-content;
+    gap: 3rem;
+    transform: none;
+    font-size: 1.1rem;
+  text-align: center;
+  margin-top: 15px;
+   justify-content: space-around;
+   margin-right: -90px;
+}
+
+.nav-search{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 20px;
+}
+.nav-search input{
+    
+    outline: none;
+    border: none;
+    width: 0;
+    font-size: 1rem;
+    border-bottom: 1px solid ;
+    transition: 0.3s;
+}
+
+.nav-search.openn input{
+    width: 50%;
+    max-width: 15rem;
+}
+
+.nav-search span{
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+}
+
+a{
+    text-decoration: none;
+    transition: .3s;
+}

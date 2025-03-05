@@ -1,0 +1,29 @@
+.Product{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: serif;
+    text-align: center;
+    padding-top: 30px;
+}
+.container{
+    margin-top: 40px;
+}
+
+.Bnt{
+border:1px solid black;
+border-radius: 5px;
+}
+
+.Bnt:hover{
+    background-color: #4D55CC;
+    color: white;
+    border: none;
+}
+
+.price{
+    font-size: 1rem;
+    font-weight: 500;
+    color: blue;
+}
+
+
