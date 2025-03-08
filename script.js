@@ -35,7 +35,7 @@ ScrollReveal({
   ScrollReveal().reveal('.section-header', { delay: 500, origin: "left"});
   ScrollReveal().reveal('.section-naration, .text2, .italic' , { delay: 600, origin: "bottom"});
   ScrollReveal().reveal('.img7', { delay: 500, origin: "bottom"});
-  ScrollReveal().reveal('.second-box', { delay: 500, origin: "right"});
+  ScrollReveal().reveal('.second-box', { delay: 500, origin: "left"});
  
 
 
